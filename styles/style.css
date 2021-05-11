@@ -12,6 +12,11 @@
     overflow: auto;
     padding: 0 20px;
 }
+
+.clear {
+    clear: both;
+}
+
 /* CORE STYLES */
 body {
     font-family: "Roboto", sans-serif;
@@ -77,12 +82,13 @@ p {
 
 /* Showcase Carousel */
 #showcase {
-    padding: 20px;
+    background: #444;
+    padding: 10px;
+    /* margin-top: 10px; */
 }
 
 #showcase img {
-    height: 40%;
-    width: 90%;
+    max-height: 600px;
 }
 
 .carousel-caption h5 {
@@ -102,4 +108,16 @@ p {
     z-index: 1;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+/* Search Bar */
+#searchbar {
+    /* margin-top: 10px; */
+    padding: 20px;
+    background: #444;
+}
+
+.d-flex {
+    max-width: 600px;
+    margin: auto;
 }

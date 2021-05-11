@@ -1,0 +1,29 @@
+html body {
+    background: #333;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+#showcase img {
+    height: 80%;
+    width: 80%;
+}
+
+.carousel-caption h5 {
+    color: #ffff;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    color: #ffff;
+    font-weight: bold;
+}
+
+#showcase {
+    padding: 20px;
+}

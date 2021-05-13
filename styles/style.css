@@ -112,7 +112,6 @@ p {
 
 /* Search Bar */
 #searchbar {
-    /* margin-top: 10px; */
     padding: 20px;
     background: #1f1d1d;
 }
@@ -120,4 +119,122 @@ p {
 .d-flex {
     max-width: 600px;
     margin: auto;
+}
+
+/* Foodmenu Section */
+.food-menu {
+    padding: 30px 20px;
+    background: #444;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.food-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background: #1f1d1d;
+    color: #fff;
+}
+
+.food-item img {
+    /* height: 40%;
+    width: 40%; */
+    /* height: 300px; */
+
+    width: 100%;
+    object-fit: cover;
+    transition: 0.2s ease;
+}
+
+.food-item img:hover {
+    transform: scale(1.04);
+}
+
+.food-item h1 {
+    padding: 10px;
+    margin: 0;
+}
+
+.price {
+    color: #33cc61;
+    font-size: 22px;
+}
+
+/* Display only 2 items in 1000px res */
+@media screen and (max-width: 1000px) {
+    .food-menu {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Display only 1 items in 768px res */
+@media screen and (max-width: 768px) {
+    .food-menu {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Quantity Buttons */
+
+/* Product Quantity */
+.quantity {
+    padding: 20px;
+}
+.quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484d;
+    font-weight: 300;
+}
+
+.quantity button[class*="btn"] {
+    width: 30px;
+    height: 30px;
+    background-color: #e1e8ee;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.minus-btn img,
+.plus-btn img {
+    padding: 2px;
+}
+.quantity button:focus,
+.quantity input:focus {
+    outline: 0;
+}
+
+/* Order Section */
+
+#order-menu {
+    max-width: 300px;
+    margin: auto;
+}
+
+#order-menu button {
+    border: #33cc61 1px solid;
+    border-radius: 10%;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+#order-menu button:hover {
+    background: #98bda3;
+}
+
+.bg-dark{
+    padding: 20px;
 }

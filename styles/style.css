@@ -131,6 +131,15 @@ p {
 }
 
 /* Foodmenu Section */
+.menu-text{
+    background: #555;
+    color: #33cc61;
+    text-align: center;
+    padding: 1rem;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 .food-menu {
     padding: 30px 20px;
     background: #444;

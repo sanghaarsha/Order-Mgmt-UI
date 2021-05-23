@@ -91,6 +91,15 @@ p {
     max-height: 600px;
 }
 
+.showcase-text {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: large;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .carousel-caption h5 {
     background: rgba(0, 0, 0, 0)
         linear-gradient(
@@ -235,6 +244,6 @@ p {
     background: #98bda3;
 }
 
-.bg-dark{
+.bg-dark {
     padding: 20px;
 }
